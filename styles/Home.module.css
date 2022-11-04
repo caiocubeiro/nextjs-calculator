@@ -2,6 +2,29 @@
   padding: 0 2rem;
 }
 
+.divisoes{
+  flex: auto;
+  justify-content: center;
+}
+
+.button {
+  flex: auto;
+  display:block;
+  width:80px;
+  height:80px;
+  line-height:80px;
+  border-radius: 50%;
+  color:rgb(73, 184, 73);
+  text-align:center;
+  background: #1d1d1d;
+  font-size:40px;
+  border: 0;
+  font-weight:bold;
+}
+.button:hover {
+  background: #2e2e2e;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -127,3 +150,5 @@
     filter: invert(1);
   }
 }
+
+
