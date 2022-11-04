@@ -3,7 +3,9 @@
 }
 
 .divisoes{
-  flex: auto;
+  margin-top: 10px;
+  display: flex;
+  padding-left: 15px;
   justify-content: center;
 }
 

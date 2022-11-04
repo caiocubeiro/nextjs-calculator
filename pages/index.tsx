@@ -26,9 +26,28 @@ export default function Home() {
             <Botao valor="/" tipo='operator' />
           </div>
           <div className={styles.divisoes}>
-            <Botao valor="1" tipo='clean' />
-            <Botao valor="2" tipo='operator' />
-            <Botao valor="3" tipo='operator' />
+            <Botao valor="7" tipo='number' />
+            <Botao valor="8" tipo='number' />
+            <Botao valor="9" tipo='number' />
+            <Botao valor="x" tipo='operator' />
+          </div>
+          <div className={styles.divisoes}>
+            <Botao valor="4" tipo='number' />
+            <Botao valor="5" tipo='number' />
+            <Botao valor="6" tipo='number' />
+            <Botao valor="-" tipo='operator' />
+          </div>
+          <div className={styles.divisoes}>
+            <Botao valor="1" tipo='number' />
+            <Botao valor="2" tipo='number' />
+            <Botao valor="3" tipo='number' />
+            <Botao valor="+" tipo='operator' />
+          </div>
+          <div className={styles.divisoes}>
+            <Botao valor="+/-" tipo='operator' />
+            <Botao valor="0" tipo='number' />
+            <Botao valor="," tipo='number' />
+            <Botao valor="=" tipo='result' />
           </div>
         </section>
       </main>
