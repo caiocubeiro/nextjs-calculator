@@ -21,11 +21,66 @@
   background: #1d1d1d;
   font-size:40px;
   border: 0;
-  font-weight:bold;
+  font-weight:light;
 }
 .button:hover {
   background: #2e2e2e;
 }
+
+.buttonoperator {
+  flex: auto;
+  display:block;
+  width:80px;
+  height:80px;
+  line-height:80px;
+  border-radius: 50%;
+  color:rgb(170, 170, 170);
+  text-align:center;
+  background: #1d1d1d;
+  font-size:40px;
+  border: 0;
+  font-weight:light;
+}
+.buttonoperator:hover {
+  background: #2e2e2e;
+}
+
+.buttonclear {
+  flex: auto;
+  display:block;
+  width:80px;
+  height:80px;
+  line-height:80px;
+  border-radius: 50%;
+  color:rgb(209, 61, 61);
+  text-align:center;
+  background: #1d1d1d;
+  font-size:40px;
+  border: 0;
+  font-weight:light;
+}
+.buttonclear:hover {
+  background: #2e2e2e;
+}
+
+.buttonresult {
+  flex: auto;
+  display:block;
+  width:80px;
+  height:80px;
+  line-height:80px;
+  border-radius: 50%;
+  color:rgb(43, 43, 43);
+  text-align:center;
+  background: #b6b6b6;
+  font-size:40px;
+  border: 0;
+  font-weight:light;
+}
+.buttonresult:hover {
+  background: #e7e7e7;
+}
+
 
 .main {
   min-height: 100vh;
